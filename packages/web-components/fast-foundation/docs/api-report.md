@@ -1487,7 +1487,6 @@ export class Picker extends FoundationElement {
     connectedCallback(): void;
     defaultItemTemplate: ViewTemplate;
     defaultOptionTemplate: ViewTemplate;
-    defaultSelection: string;
     // (undocumented)
     disconnectedCallback(): void;
     // @internal (undocumented)
