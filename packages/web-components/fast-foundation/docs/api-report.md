@@ -1517,6 +1517,8 @@ export class Picker extends FoundationElement {
     protected hasFocus: boolean;
     label: string;
     labelledby: string;
+    // (undocumented)
+    listItemContentsTemplate: ViewTemplate;
     listItemTemplate: ViewTemplate;
     loadingText: string;
     maxSelected: number | undefined;
@@ -1529,6 +1531,8 @@ export class Picker extends FoundationElement {
     menuFocusOptionId: string | undefined;
     // @internal (undocumented)
     menuId: string;
+    // (undocumented)
+    menuOptionContentsTemplate: ViewTemplate;
     menuOptionTemplate: ViewTemplate;
     noSuggestionsText: string;
     options: string;
