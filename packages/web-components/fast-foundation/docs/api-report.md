@@ -1496,8 +1496,6 @@ export class Picker extends FoundationElement {
     // @internal (undocumented)
     flyoutOpen: boolean;
     // (undocumented)
-    handleClick: (e: MouseEvent) => boolean;
-    // (undocumented)
     handleFocusIn: (e: FocusEvent) => boolean;
     // (undocumented)
     handleFocusOut: (e: FocusEvent) => boolean;
